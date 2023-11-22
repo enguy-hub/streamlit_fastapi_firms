@@ -42,7 +42,7 @@ For `CONDA` environment (assuming conda or miniconda is already installed), run 
 2. Activate the conda environment:
 
    ```sh
-   conda activate stmap_fapi
+   conda activate stfapi
    ```
 
 3. Install the packages/dependencies in editable mode:
@@ -91,7 +91,7 @@ The server will be available at <http://127.0.0.1:8000/>
 
 Get your FIRMS Map Key here: <https://firms.modaps.eosdis.nasa.gov/api/area/>
 
-Enter your map key in the `YOUR_FIRMS_API_KEY` variable in the `services/firms_services.py` file
+Enter your map key in the `YOUR_FIRMS_MAP_KEY_HERE` variable in the `services/firms_services.py` file
 
 
 ### 5. Run Streamlit app
